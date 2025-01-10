@@ -1,0 +1,58 @@
+
+*{
+    background-color: #e8e8ea;
+}
+
+/* shared styles  starts */
+.primary-btn{
+
+}
+.primary-btn:hover{
+    background-color: green;
+    color: red;
+}
+
+
+/* shared styles end  */
+
+/* nav bar styles starts */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.nav-btn{
+    width: 68px;
+    height: 36px;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 8px;
+}
+.nav-btn:hover{
+    background-color: green;
+    color: red;
+}
+/* nav bar styles end  */
+
+/* banner styles start  */
+.banner-content{
+    display: flex;
+    justify-content: space-around;
+
+    /* background-color: green; */
+    background-color: #C6E4D6;
+}
+.banner-text, .banner-title, .banner-desc, .banner-img{
+    background-color: #C6E4D6;
+}
+.banner-img{
+    height: 200px;
+    padding: 40px;
+}
+
+
+/* banner styles end  */
