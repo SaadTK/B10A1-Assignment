@@ -693,3 +693,24 @@ td select {
   background-color: transparent;
 }
 /* newsletter end  */
+
+/* footer start  */
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  padding-right: 23px;
+}
+.h-line {
+  width: 80vw;
+  border: 1px solid black;
+}
+/* footer end  */
