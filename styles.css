@@ -479,3 +479,14 @@ td select {
   background-color: #eaf7eb;
 }
 /* opinion using table end  */
+
+/* recent news start  */
+.recent-news {
+  font-size: 40px;
+  font-weight: bold;
+}
+.recent-news-desc {
+  font-size: 16px;
+}
+
+/* recent news end  */
