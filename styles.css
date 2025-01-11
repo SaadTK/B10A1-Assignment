@@ -102,7 +102,7 @@
   border-radius: 10px;
   border: 2px solid green;
   /* width: 80%; */
-  height: 70vh;
+  height: 60vh;
   /* padding: 20px; */
 
   display: flex;
@@ -116,7 +116,7 @@
 }
 .banner-img {
   background-color: #c6e4d6;
-  height: 300px;
+  height: 250px;
   padding: 20px;
 }
 .banner-text {
@@ -481,7 +481,17 @@ td select {
 /* opinion using table end  */
 
 /* recent news start  */
-
+.recent-news-title {
+  margin-left: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.recent-news-desc {
+  margin-left: 50px;
+  font-size: 16px;
+  color: #0e0e0e;
+  opacity: 0.7;
+}
 .recent-news-container {
   border-radius: 15px;
   margin: 20px 50px;
