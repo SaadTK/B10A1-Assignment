@@ -557,3 +557,139 @@ td select {
 }
 
 /* recent news end  */
+
+/* donate start  */
+.donate-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.donate-title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.donate-desc {
+  text-align: center;
+  font-size: 16px;
+  opacity: 0.7;
+  color: 00eE0E;
+  padding-bottom: 20px;
+}
+.donate-btns {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.amount-btn1 {
+  width: 150px;
+  height: 80px;
+  background-color: white;
+
+  padding: 10px;
+  margin-right: 25px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+.amount-btn1:hover {
+  background-color: #c6e4d6;
+}
+.amount1 {
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+.donate-input {
+  height: 30px;
+  width: 480px;
+  background-color: white;
+
+  text-align: center;
+  margin-bottom: 20px;
+}
+.donate-now {
+  width: 100px;
+  height: 37px;
+
+  border: none;
+  border-radius: 10px;
+  background-color: #006a50;
+  color: white;
+  margin-bottom: 20px;
+}
+/* donate end  */
+
+/* newsletter start  */
+.newsletter-container {
+  margin: 10px 80px;
+}
+.newsletter-content {
+  border-radius: 10px;
+  border: 2px solid green;
+  /* width: 80%; */
+  height: 70vh;
+  /* padding: 20px; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #c6e4d6;
+}
+.input-button {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  /* border-radius: 8px; */
+  height: 35px;
+  /* width: 425px; */
+  display: flex;
+  justify-content: space-between;
+}
+.newsletter-input {
+  padding-left: 30px;
+  width: 425px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.newsletter-btn {
+  border: none;
+  background-color: transparent;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  /* border-radius: 10px; */
+  width: 90px;
+  height: 35px;
+  background-color: #006a50;
+  color: white;
+}
+.newsletter-btn:hover {
+  color: red;
+}
+.newsletter-title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: transparent;
+}
+.newsletter-desc {
+  background-color: transparent;
+  font-size: 16px;
+  opacity: 0.7;
+  color: #0e0e0e;
+  padding-bottom: 30px;
+}
+.newsletter-end-text {
+  font-size: 16px;
+  color: 00eE0E;
+  opacity: 0.7;
+  background-color: transparent;
+}
+/* newsletter end  */
