@@ -481,12 +481,79 @@ td select {
 /* opinion using table end  */
 
 /* recent news start  */
-.recent-news {
-  font-size: 40px;
-  font-weight: bold;
+
+.recent-news-container {
+  border-radius: 15px;
+  margin: 20px 50px;
+  display: flex;
+  justify-content: baseline;
+  padding: 20px;
+  background-color: white;
 }
-.recent-news-desc {
-  font-size: 16px;
+
+.news-container {
+  padding: 10px;
+
+  border-radius: 10px;
+
+  width: 100%;
+
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.news-content {
+  background-color: transparent;
+  margin-left: 20px;
+}
+.news-img {
+  border-radius: 20px;
+
+  height: auto;
+  width: 360px;
+}
+
+.news-title {
+  background-color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.news-logo {
+  height: 30px;
+  background-color: transparent;
+}
+
+.news-date {
+  background-color: transparent;
+  font-size: 14px;
+  color: #666;
+}
+
+.news-desc {
+  background-color: transparent;
+  font-size: 14px;
+
+  color: #555;
+}
+
+.news-btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #006a50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.news-btn:hover {
+  background-color: white;
+  color: red;
 }
 
 /* recent news end  */
