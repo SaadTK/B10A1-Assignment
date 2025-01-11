@@ -635,6 +635,9 @@ td select {
   color: white;
   margin-bottom: 20px;
 }
+.donate-now:hover {
+  color: red;
+}
 /* donate end  */
 
 /* newsletter start  */
